@@ -1,11 +1,15 @@
+---
+declared-services:
+  my-conversation-service:
+    label: conversation
+    plan: free
 applications:
-- path: .
+- name: conversation-simple
+  command: npm start
+  path: .
   memory: 256M
   instances: 1
-  domain: mybluemix.net
-  name: Test1abpandek
-  host: Test1abpandek
-  disk_quota: 1024M
   services:
-  - availability-monitoring-auto
-  - Cloudant NoSQL DB-8j
+  - my-conversation-service
+  env:
+    NPM_CONFIG_PRODUCTION: false
