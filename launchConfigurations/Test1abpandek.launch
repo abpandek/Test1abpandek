@@ -8,7 +8,11 @@
     },
     "Name": "Test1abpandek",
     "Instrumentation": {
-      "domain": "mybluemix.net"
+      "domain": "mybluemix.net",
+      "services": [
+        "my-conversation-service",
+        "ConversationTest"
+      ]
     }
   },
   "Path": "manifest.yml",
