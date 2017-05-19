@@ -10,7 +10,6 @@
     "Instrumentation": {
       "domain": "mybluemix.net",
       "services": [
-        "my-conversation-service",
         "ConversationTest"
       ]
     }
