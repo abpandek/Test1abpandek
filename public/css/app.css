@@ -15,7 +15,7 @@ div {
   line-height: 1.25rem;
 }
 
-#view-change-button {
+/* #view-change-button {
   display: inline-block;
   position: absolute;
   width: 3.125rem;
@@ -26,7 +26,7 @@ div {
   right: 0.3125rem;
   line-height: 3.125rem;
   vertical-align: middle;
-}
+} */
 
 /* #view-change-button img {
   display: none;
