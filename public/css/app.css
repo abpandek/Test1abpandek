@@ -245,7 +245,7 @@ input:-moz-placeholder {
   opacity: 0;
 }
 
-#payload-column {
+/*#payload-column {
   font-family: Monaco, monospace;
   font-size: 0.75rem;
   letter-spacing: 0;
@@ -263,7 +263,7 @@ input:-moz-placeholder {
   width: 100%;
   max-width: none;
   min-width: initial;
-}
+} */
 
 #payload-column .header-text, #payload-column #payload-initial-message {
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
